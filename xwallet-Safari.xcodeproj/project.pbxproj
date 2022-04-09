@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		617F827A280135E6003EE5AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F8279280135E6003EE5AB /* AppDelegate.swift */; };
+		617F827C280135E6003EE5AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F827B280135E6003EE5AB /* SceneDelegate.swift */; };
+		617F827F280135E6003EE5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617F827D280135E6003EE5AB /* LaunchScreen.storyboard */; };
+		617F8282280135E6003EE5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617F8280280135E6003EE5AB /* Main.storyboard */; };
+		617F828B280135E6003EE5AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F828A280135E6003EE5AB /* AppDelegate.swift */; };
+		617F828E280135E6003EE5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617F828C280135E6003EE5AB /* Main.storyboard */; };
+		617F8296280135E6003EE5AB /* xwallet-Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 617F8295280135E6003EE5AB /* xwallet-Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		617F82A0280135E6003EE5AB /* xwallet-Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 617F829F280135E6003EE5AB /* xwallet-Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		617F82A6280135E6003EE5AB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 617F8269280135E3003EE5AB /* Main.html */; };
+		617F82A7280135E6003EE5AB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 617F8269280135E3003EE5AB /* Main.html */; };
+		617F82A8280135E6003EE5AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 617F826B280135E3003EE5AB /* Icon.png */; };
+		617F82A9280135E6003EE5AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 617F826B280135E3003EE5AB /* Icon.png */; };
+		617F82AA280135E6003EE5AB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 617F826C280135E3003EE5AB /* Style.css */; };
+		617F82AB280135E6003EE5AB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 617F826C280135E3003EE5AB /* Style.css */; };
+		617F82AC280135E6003EE5AB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 617F826D280135E3003EE5AB /* Script.js */; };
+		617F82AD280135E6003EE5AB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 617F826D280135E3003EE5AB /* Script.js */; };
+		617F82AE280135E6003EE5AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F826E280135E3003EE5AB /* ViewController.swift */; };
+		617F82AF280135E6003EE5AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F826E280135E3003EE5AB /* ViewController.swift */; };
+		617F82B0280135E6003EE5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617F826F280135E6003EE5AB /* Assets.xcassets */; };
+		617F82B1280135E6003EE5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617F826F280135E6003EE5AB /* Assets.xcassets */; };
+		617F82B2280135E6003EE5AB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F8271280135E6003EE5AB /* SafariWebExtensionHandler.swift */; };
+		617F82B3280135E6003EE5AB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F8271280135E6003EE5AB /* SafariWebExtensionHandler.swift */; };
+		617F82CF280135E7003EE5AB /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C5280135E7003EE5AB /* favicon.ico */; };
+		617F82D0280135E7003EE5AB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C6280135E7003EE5AB /* index.html */; };
+		617F82D1280135E7003EE5AB /* app in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C7280135E7003EE5AB /* app */; };
+		617F82D2280135E7003EE5AB /* asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C8280135E7003EE5AB /* asset-manifest.json */; };
+		617F82D3280135E7003EE5AB /* image in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C9280135E7003EE5AB /* image */; };
+		617F82D4280135E7003EE5AB /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CA280135E7003EE5AB /* _metadata */; };
+		617F82D5280135E7003EE5AB /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CB280135E7003EE5AB /* favicon.png */; };
+		617F82D6280135E7003EE5AB /* static in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CC280135E7003EE5AB /* static */; };
+		617F82D7280135E7003EE5AB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CD280135E7003EE5AB /* manifest.json */; };
+		617F82D8280135E7003EE5AB /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CE280135E7003EE5AB /* robots.txt */; };
+		617F82D9280135E7003EE5AB /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C5280135E7003EE5AB /* favicon.ico */; };
+		617F82DA280135E7003EE5AB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C6280135E7003EE5AB /* index.html */; };
+		617F82DB280135E7003EE5AB /* app in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C7280135E7003EE5AB /* app */; };
+		617F82DC280135E7003EE5AB /* asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C8280135E7003EE5AB /* asset-manifest.json */; };
+		617F82DD280135E7003EE5AB /* image in Resources */ = {isa = PBXBuildFile; fileRef = 617F82C9280135E7003EE5AB /* image */; };
+		617F82DE280135E7003EE5AB /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CA280135E7003EE5AB /* _metadata */; };
+		617F82DF280135E7003EE5AB /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CB280135E7003EE5AB /* favicon.png */; };
+		617F82E0280135E7003EE5AB /* static in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CC280135E7003EE5AB /* static */; };
+		617F82E1280135E7003EE5AB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CD280135E7003EE5AB /* manifest.json */; };
+		617F82E2280135E7003EE5AB /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = 617F82CE280135E7003EE5AB /* robots.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		617F8297280135E6003EE5AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617F8263280135E2003EE5AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617F8294280135E6003EE5AB;
+			remoteInfo = "xwallet-Safari Extension (iOS)";
+		};
+		617F82A1280135E6003EE5AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617F8263280135E2003EE5AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617F829E280135E6003EE5AB;
+			remoteInfo = "xwallet-Safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		617F82B9280135E6003EE5AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				617F8296280135E6003EE5AB /* xwallet-Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F82C0280135E6003EE5AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				617F82A0280135E6003EE5AB /* xwallet-Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		617F826A280135E3003EE5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		617F826B280135E3003EE5AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		617F826C280135E3003EE5AB /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		617F826D280135E3003EE5AB /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		617F826E280135E3003EE5AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		617F826F280135E6003EE5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617F8271280135E6003EE5AB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		617F8276280135E6003EE5AB /* xwallet-Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xwallet-Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		617F8279280135E6003EE5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		617F827B280135E6003EE5AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		617F827E280135E6003EE5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617F8281280135E6003EE5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617F8283280135E6003EE5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617F8288280135E6003EE5AB /* xwallet-Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xwallet-Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		617F828A280135E6003EE5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		617F828D280135E6003EE5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617F828F280135E6003EE5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617F8290280135E6003EE5AB /* xwallet-Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "xwallet-Safari.entitlements"; sourceTree = "<group>"; };
+		617F8295280135E6003EE5AB /* xwallet-Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xwallet-Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		617F829A280135E6003EE5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617F829F280135E6003EE5AB /* xwallet-Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xwallet-Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		617F82A4280135E6003EE5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617F82A5280135E6003EE5AB /* xwallet-Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "xwallet-Safari.entitlements"; sourceTree = "<group>"; };
+		617F82C5280135E7003EE5AB /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = Resources/favicon.ico; sourceTree = "<group>"; };
+		617F82C6280135E7003EE5AB /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = Resources/index.html; sourceTree = "<group>"; };
+		617F82C7280135E7003EE5AB /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app; path = Resources/app; sourceTree = "<group>"; };
+		617F82C8280135E7003EE5AB /* asset-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "asset-manifest.json"; path = "Resources/asset-manifest.json"; sourceTree = "<group>"; };
+		617F82C9280135E7003EE5AB /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = image; path = Resources/image; sourceTree = "<group>"; };
+		617F82CA280135E7003EE5AB /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = Resources/_metadata; sourceTree = "<group>"; };
+		617F82CB280135E7003EE5AB /* favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favicon.png; path = Resources/favicon.png; sourceTree = "<group>"; };
+		617F82CC280135E7003EE5AB /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static; path = Resources/static; sourceTree = "<group>"; };
+		617F82CD280135E7003EE5AB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		617F82CE280135E7003EE5AB /* robots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = robots.txt; path = Resources/robots.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617F8273280135E6003EE5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F8285280135E6003EE5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F8292280135E6003EE5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F829C280135E6003EE5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		617F8262280135E2003EE5AB = {
+			isa = PBXGroup;
+			children = (
+				617F8267280135E3003EE5AB /* Shared (App) */,
+				617F8270280135E6003EE5AB /* Shared (Extension) */,
+				617F8278280135E6003EE5AB /* iOS (App) */,
+				617F8289280135E6003EE5AB /* macOS (App) */,
+				617F8299280135E6003EE5AB /* iOS (Extension) */,
+				617F82A3280135E6003EE5AB /* macOS (Extension) */,
+				617F8277280135E6003EE5AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		617F8267280135E3003EE5AB /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				617F826E280135E3003EE5AB /* ViewController.swift */,
+				617F826F280135E6003EE5AB /* Assets.xcassets */,
+				617F8268280135E3003EE5AB /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		617F8268280135E3003EE5AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				617F8269280135E3003EE5AB /* Main.html */,
+				617F826B280135E3003EE5AB /* Icon.png */,
+				617F826C280135E3003EE5AB /* Style.css */,
+				617F826D280135E3003EE5AB /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		617F8270280135E6003EE5AB /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				617F82C4280135E7003EE5AB /* Resources */,
+				617F8271280135E6003EE5AB /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		617F8277280135E6003EE5AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617F8276280135E6003EE5AB /* xwallet-Safari.app */,
+				617F8288280135E6003EE5AB /* xwallet-Safari.app */,
+				617F8295280135E6003EE5AB /* xwallet-Safari Extension.appex */,
+				617F829F280135E6003EE5AB /* xwallet-Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617F8278280135E6003EE5AB /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				617F8279280135E6003EE5AB /* AppDelegate.swift */,
+				617F827B280135E6003EE5AB /* SceneDelegate.swift */,
+				617F827D280135E6003EE5AB /* LaunchScreen.storyboard */,
+				617F8280280135E6003EE5AB /* Main.storyboard */,
+				617F8283280135E6003EE5AB /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		617F8289280135E6003EE5AB /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				617F828A280135E6003EE5AB /* AppDelegate.swift */,
+				617F828C280135E6003EE5AB /* Main.storyboard */,
+				617F828F280135E6003EE5AB /* Info.plist */,
+				617F8290280135E6003EE5AB /* xwallet-Safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		617F8299280135E6003EE5AB /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				617F829A280135E6003EE5AB /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		617F82A3280135E6003EE5AB /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				617F82A4280135E6003EE5AB /* Info.plist */,
+				617F82A5280135E6003EE5AB /* xwallet-Safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		617F82C4280135E7003EE5AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				617F82C5280135E7003EE5AB /* favicon.ico */,
+				617F82C6280135E7003EE5AB /* index.html */,
+				617F82C7280135E7003EE5AB /* app */,
+				617F82C8280135E7003EE5AB /* asset-manifest.json */,
+				617F82C9280135E7003EE5AB /* image */,
+				617F82CA280135E7003EE5AB /* _metadata */,
+				617F82CB280135E7003EE5AB /* favicon.png */,
+				617F82CC280135E7003EE5AB /* static */,
+				617F82CD280135E7003EE5AB /* manifest.json */,
+				617F82CE280135E7003EE5AB /* robots.txt */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617F8275280135E6003EE5AB /* xwallet-Safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617F82BA280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari (iOS)" */;
+			buildPhases = (
+				617F8272280135E6003EE5AB /* Sources */,
+				617F8273280135E6003EE5AB /* Frameworks */,
+				617F8274280135E6003EE5AB /* Resources */,
+				617F82B9280135E6003EE5AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617F8298280135E6003EE5AB /* PBXTargetDependency */,
+			);
+			name = "xwallet-Safari (iOS)";
+			productName = "xwallet-Safari (iOS)";
+			productReference = 617F8276280135E6003EE5AB /* xwallet-Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		617F8287280135E6003EE5AB /* xwallet-Safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617F82C1280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari (macOS)" */;
+			buildPhases = (
+				617F8284280135E6003EE5AB /* Sources */,
+				617F8285280135E6003EE5AB /* Frameworks */,
+				617F8286280135E6003EE5AB /* Resources */,
+				617F82C0280135E6003EE5AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617F82A2280135E6003EE5AB /* PBXTargetDependency */,
+			);
+			name = "xwallet-Safari (macOS)";
+			productName = "xwallet-Safari (macOS)";
+			productReference = 617F8288280135E6003EE5AB /* xwallet-Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		617F8294280135E6003EE5AB /* xwallet-Safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617F82B6280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari Extension (iOS)" */;
+			buildPhases = (
+				617F8291280135E6003EE5AB /* Sources */,
+				617F8292280135E6003EE5AB /* Frameworks */,
+				617F8293280135E6003EE5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xwallet-Safari Extension (iOS)";
+			productName = "xwallet-Safari Extension (iOS)";
+			productReference = 617F8295280135E6003EE5AB /* xwallet-Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		617F829E280135E6003EE5AB /* xwallet-Safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617F82BD280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari Extension (macOS)" */;
+			buildPhases = (
+				617F829B280135E6003EE5AB /* Sources */,
+				617F829C280135E6003EE5AB /* Frameworks */,
+				617F829D280135E6003EE5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xwallet-Safari Extension (macOS)";
+			productName = "xwallet-Safari Extension (macOS)";
+			productReference = 617F829F280135E6003EE5AB /* xwallet-Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617F8263280135E2003EE5AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					617F8275280135E6003EE5AB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					617F8287280135E6003EE5AB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					617F8294280135E6003EE5AB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					617F829E280135E6003EE5AB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 617F8266280135E2003EE5AB /* Build configuration list for PBXProject "xwallet-Safari" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 617F8262280135E2003EE5AB;
+			productRefGroup = 617F8277280135E6003EE5AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617F8275280135E6003EE5AB /* xwallet-Safari (iOS) */,
+				617F8287280135E6003EE5AB /* xwallet-Safari (macOS) */,
+				617F8294280135E6003EE5AB /* xwallet-Safari Extension (iOS) */,
+				617F829E280135E6003EE5AB /* xwallet-Safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617F8274280135E6003EE5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82A8280135E6003EE5AB /* Icon.png in Resources */,
+				617F827F280135E6003EE5AB /* LaunchScreen.storyboard in Resources */,
+				617F82A6280135E6003EE5AB /* Main.html in Resources */,
+				617F82AC280135E6003EE5AB /* Script.js in Resources */,
+				617F82B0280135E6003EE5AB /* Assets.xcassets in Resources */,
+				617F8282280135E6003EE5AB /* Main.storyboard in Resources */,
+				617F82AA280135E6003EE5AB /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F8286280135E6003EE5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82A9280135E6003EE5AB /* Icon.png in Resources */,
+				617F82AB280135E6003EE5AB /* Style.css in Resources */,
+				617F828E280135E6003EE5AB /* Main.storyboard in Resources */,
+				617F82AD280135E6003EE5AB /* Script.js in Resources */,
+				617F82B1280135E6003EE5AB /* Assets.xcassets in Resources */,
+				617F82A7280135E6003EE5AB /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F8293280135E6003EE5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82DB280135E7003EE5AB /* app in Resources */,
+				617F82E2280135E7003EE5AB /* robots.txt in Resources */,
+				617F82DD280135E7003EE5AB /* image in Resources */,
+				617F82D9280135E7003EE5AB /* favicon.ico in Resources */,
+				617F82DF280135E7003EE5AB /* favicon.png in Resources */,
+				617F82E1280135E7003EE5AB /* manifest.json in Resources */,
+				617F82DE280135E7003EE5AB /* _metadata in Resources */,
+				617F82DA280135E7003EE5AB /* index.html in Resources */,
+				617F82E0280135E7003EE5AB /* static in Resources */,
+				617F82DC280135E7003EE5AB /* asset-manifest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F829D280135E6003EE5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82D1280135E7003EE5AB /* app in Resources */,
+				617F82D8280135E7003EE5AB /* robots.txt in Resources */,
+				617F82D3280135E7003EE5AB /* image in Resources */,
+				617F82CF280135E7003EE5AB /* favicon.ico in Resources */,
+				617F82D5280135E7003EE5AB /* favicon.png in Resources */,
+				617F82D7280135E7003EE5AB /* manifest.json in Resources */,
+				617F82D4280135E7003EE5AB /* _metadata in Resources */,
+				617F82D0280135E7003EE5AB /* index.html in Resources */,
+				617F82D6280135E7003EE5AB /* static in Resources */,
+				617F82D2280135E7003EE5AB /* asset-manifest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617F8272280135E6003EE5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82AE280135E6003EE5AB /* ViewController.swift in Sources */,
+				617F827A280135E6003EE5AB /* AppDelegate.swift in Sources */,
+				617F827C280135E6003EE5AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F8284280135E6003EE5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82AF280135E6003EE5AB /* ViewController.swift in Sources */,
+				617F828B280135E6003EE5AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F8291280135E6003EE5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82B2280135E6003EE5AB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617F829B280135E6003EE5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F82B3280135E6003EE5AB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		617F8298280135E6003EE5AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617F8294280135E6003EE5AB /* xwallet-Safari Extension (iOS) */;
+			targetProxy = 617F8297280135E6003EE5AB /* PBXContainerItemProxy */;
+		};
+		617F82A2280135E6003EE5AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617F829E280135E6003EE5AB /* xwallet-Safari Extension (macOS) */;
+			targetProxy = 617F82A1280135E6003EE5AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		617F8269280135E3003EE5AB /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617F826A280135E3003EE5AB /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		617F827D280135E6003EE5AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617F827E280135E6003EE5AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		617F8280280135E6003EE5AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617F8281280135E6003EE5AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		617F828C280135E6003EE5AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617F828D280135E6003EE5AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617F82B4280135E6003EE5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		617F82B5280135E6003EE5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		617F82B7280135E6003EE5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari.Extension";
+				PRODUCT_NAME = "xwallet-Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617F82B8280135E6003EE5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari.Extension";
+				PRODUCT_NAME = "xwallet-Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617F82BB280135E6003EE5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari";
+				PRODUCT_NAME = "xwallet-Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617F82BC280135E6003EE5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari";
+				PRODUCT_NAME = "xwallet-Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617F82BE280135E6003EE5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/xwallet-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari.Extension";
+				PRODUCT_NAME = "xwallet-Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		617F82BF280135E6003EE5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/xwallet-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari.Extension";
+				PRODUCT_NAME = "xwallet-Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		617F82C2280135E6003EE5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/xwallet-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari";
+				PRODUCT_NAME = "xwallet-Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		617F82C3280135E6003EE5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/xwallet-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xwallet-Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.dmt.xwallet-Safari";
+				PRODUCT_NAME = "xwallet-Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617F8266280135E2003EE5AB /* Build configuration list for PBXProject "xwallet-Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617F82B4280135E6003EE5AB /* Debug */,
+				617F82B5280135E6003EE5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617F82B6280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617F82B7280135E6003EE5AB /* Debug */,
+				617F82B8280135E6003EE5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617F82BA280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617F82BB280135E6003EE5AB /* Debug */,
+				617F82BC280135E6003EE5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617F82BD280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617F82BE280135E6003EE5AB /* Debug */,
+				617F82BF280135E6003EE5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617F82C1280135E6003EE5AB /* Build configuration list for PBXNativeTarget "xwallet-Safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617F82C2280135E6003EE5AB /* Debug */,
+				617F82C3280135E6003EE5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617F8263280135E2003EE5AB /* Project object */;
+}
