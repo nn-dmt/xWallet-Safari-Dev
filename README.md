@@ -1,6 +1,9 @@
 TEST BUILD x-WALLET for SAFARI
 
-CONVERTED FROM CHROME PLUGIN - USE AT YOUR OWN RISK
+CONVERTED DIRECTLY FROM CHROME PLUGIN USING XCODE - USE AT YOUR OWN RISK
+
+Official wallet website: https://xwallet.kaddex.com
+Official chrome plugin: https://chrome.google.com/webstore/detail/x-wallet/bofddndhbegljegmpmnlbhcejofmjgbn
 
 
 TO BUILD:
