@@ -1,11 +1,14 @@
 TEST BUILD x-WALLET for SAFARI
 
-CONVERTED DIRECTLY FROM CHROME PLUGIN USING XCODE - USE AT YOUR OWN RISK
+CONVERTED DIRECTLY FROM CHROME PLUGIN USING XCODE - **USE AT YOUR OWN RISK**
 
-Official wallet website: https://xwallet.kaddex.com
+**Official wallet website:** https://xwallet.kaddex.com
 <br>
-Official chrome plugin: https://chrome.google.com/webstore/detail/x-wallet/bofddndhbegljegmpmnlbhcejofmjgbn
+**Official chrome plugin:** https://chrome.google.com/webstore/detail/x-wallet/bofddndhbegljegmpmnlbhcejofmjgbn
 <br>
+
+**Known issues:**
+  •Safari Developer Extension sandboxes the extension, not allowing downloads (downloading backup of seed phrase on new wallet creation - recommendation to write it manually or another secure method)
 
 
 TO BUILD:
